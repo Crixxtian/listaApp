@@ -10,4 +10,24 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'killjoy',
+    loadComponent: () => import('./killjoy/killjoy.page').then( m => m.KilljoyPage)
+  },
+  {
+    path: 'gekko',
+    loadComponent: () => import('./gekko/gekko.page').then( m => m.GekkoPage)
+  },
+  {
+    path: 'neon',
+    loadComponent: () => import('./neon/neon.page').then( m => m.NeonPage)
+  },
+  {
+    path: 'reyna',
+    loadComponent: () => import('./reyna/reyna.page').then( m => m.ReynaPage)
+  },
+  {
+    path: 'jett',
+    loadComponent: () => import('./jett/jett.page').then( m => m.JettPage)
+  },
 ];
