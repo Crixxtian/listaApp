@@ -1,9 +1,67 @@
 <ion-header [translucent]="true">
+
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
     <ion-title>killjoy</ion-title>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
  <img src="https://sm.ign.com/ign_br/screenshot/default/blob_8bnd.jpg" alt="">
+ <ion-list>
+  <ion-item>
+    <ion-label><h2>NOME:</h2> Klara Böhringer</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label><h2>CODNOME:</h2>KillJoy</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label><h2>NACIONALIDADE:</h2>Alemanha</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label><h2>FUNÇÃO:</h2>Sentinela</ion-label>
+  </ion-item>
+
+</ion-list>
+
+ <ion-card>
+  <ion-card-header>
+    <ion-card-title>Habilidade do Agente</ion-card-title>
+
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://static.valorantzone.gg/news/2020/08/20110954/128px-Killjoy_Nanoswarm.png" />
+        </ion-thumbnail>
+        <ion-label>Nanoenxame</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://static.valorantzone.gg/news/2020/08/20111507/128px-Killjoy_Alarmbot.png" />
+        </ion-thumbnail>
+        <ion-label>Robô de Alarme </ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://static.valorantzone.gg/news/2020/08/20111915/128px-Killjoy_Turret.png" />
+        </ion-thumbnail>
+        <ion-label>Torreta</ion-label>
+      </ion-item>
+
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://static.valorantzone.gg/news/2020/08/20112200/Killjoy_Lockdown.png" />
+        </ion-thumbnail>
+        <ion-label>Confinamento</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
 </ion-content>
